@@ -31,6 +31,10 @@ section{
     min-height: 10rem;
 }
 
+.landscape { padding-bottom: 65%}
+.portrait  { padding-bottom: 125%}
+.square    { padding-bottom: 100%}
+
 /* -------- Universal styles & utility classes  ----------------------- */
 
 body {
@@ -62,6 +66,10 @@ body {
 .featured-text { color: #ffBE00;}
 .white-text { color: white;}
 
+.bg-light { 
+    background-color: #E3ECF2;
+}
+
 .sub-title { 
     color: rgb(120,120,125);
     font-size: 1.2rem;
@@ -92,10 +100,16 @@ body {
 .text-center   { text-align: center;}
 .text-right    { text-align: right;}
 
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
 h2 {
     font-size: 2.5rem;
-    line-height: 1.1;
-    margin-bottom: 1rem;
+    
+   
+    
 }
 
 h3 { line-height: 1;}
