@@ -15,7 +15,7 @@
 /* Temp styles for structural html */
 
 section{
-    border: 2px solid rgb(225,225,225);
+    /* border: 2px solid rgb(225,225,225); */
     
 }
 
@@ -46,6 +46,10 @@ body {
     background-color: #192B37;
     color: white;
 }
+
+.bg-featured{ background-color: #ffBE00;}
+
+
 .tall-50       { min-height: 50vh;}
 .tall-60       { min-height: 60vh;}
 .tall-70       { min-height: 70vh;}
